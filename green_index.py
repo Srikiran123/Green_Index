@@ -1,6 +1,11 @@
 
-current_emissions = 13568172
-emission_decrease_rate = 1434848
+
+
+current_emissions = input("Enter the city's current carbon emmissions:")
+current_emissions = int(current_emissions)
+
+emission_decrease_rate = input("Enter the city's historic rate of carbon emmissions decrease:")
+emission_decrease_rate = int(emission_decrease_rate)
 
 year_rate = current_emissions/emission_decrease_rate
 year = 2022+year_rate
@@ -53,3 +58,4 @@ elif (year > 2085):
 elif (year < 2037):
     percentage = "{:.5%}".format(1)
     print(percentage)
+
