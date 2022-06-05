@@ -1,5 +1,5 @@
 
-
+city_name = input("What is the name of the city?")
 
 current_emissions = input("Enter the city's current carbon emmissions:")
 current_emissions = int(current_emissions)
@@ -17,7 +17,7 @@ if (year >= 2037 and year <= 2044):
     derrived_val = end_val-(increment_val*new_year)
     derrived_val1 = derrived_val/10
     percentage = "{:.5%}".format(derrived_val1)
-    print(percentage)
+    print("By 2037,",city_name," will be ",percentage," on track to hit Net Zero in order to prevent the 1.5 deg. Celcius increase")
 elif (year >= 2045 and year <= 2050):
     new_year = abs(year-2045)
     increment_val = 0.333
@@ -25,7 +25,7 @@ elif (year >= 2045 and year <= 2050):
     derrived_val = end_val-(increment_val*new_year)
     derrived_val1 = derrived_val/10
     percentage = "{:.5%}".format(derrived_val1)
-    print(percentage)
+    print("By 2037,",city_name," will be ",percentage," on track to hit Net Zero in order to prevent the 1.5 deg. Celcius increase")
 elif (year >= 2051 and year <= 2052):
     new_year = abs(year-2051)
     increment_val = 1.666
@@ -33,7 +33,7 @@ elif (year >= 2051 and year <= 2052):
     derrived_val = end_val-(increment_val*new_year)
     derrived_val1 = derrived_val/10
     percentage = "{:.5%}".format(derrived_val1)
-    print(percentage)
+    print("By 2037,",city_name," will be ",percentage," on track to hit Net Zero in order to prevent the 1.5 deg. Celcius increase")
 elif (year >= 2053 and year <= 2070):
     new_year = abs(year-2053)
     increment_val = 0.098
@@ -41,7 +41,7 @@ elif (year >= 2053 and year <= 2070):
     derrived_val = end_val-(increment_val*new_year)
     derrived_val1 = derrived_val/10
     percentage = "{:.5%}".format(derrived_val1)
-    print(percentage)
+    print("By 2037,",city_name," will be ",percentage," on track to hit Net Zero in order to prevent the 1.5 deg. Celcius increase")
 elif (year >= 2071 and year <= 2085):
     new_year = abs(year-2071)
     increment_val = 0.119
@@ -49,11 +49,11 @@ elif (year >= 2071 and year <= 2085):
     derrived_val = end_val-(increment_val*new_year)
     derrived_val1 = derrived_val/10
     percentage = "{:.5%}".format(derrived_val1)
-    print(percentage)
+    print("By 2037,",city_name," will be ",percentage," on track to hit Net Zero in order to prevent the 1.5 deg. Celcius increase")
 elif (year > 2085):
     percentage = "{:.5%}".format(0)
-    print(percentage)
+    print("By 2037,",city_name," will be ",percentage," on track to hit Net Zero in order to prevent the 1.5 deg. Celcius increase")
 elif (year < 2037):
     percentage = "{:.5%}".format(1)
-    print(percentage)
+    print("By 2037,",city_name," will be ",percentage," on track to hit Net Zero in order to prevent the 1.5 deg. Celcius increase")
 
