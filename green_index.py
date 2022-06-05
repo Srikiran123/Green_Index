@@ -9,8 +9,6 @@ emission_decrease_rate = int(emission_decrease_rate)
 
 year_rate = current_emissions/emission_decrease_rate
 year = 2022+year_rate
-#test
-
 
 if (year >= 2037 and year <= 2044):
     new_year = abs(year-2037)
